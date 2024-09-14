@@ -33,7 +33,7 @@ async def root():
         options=chrome_options
     )
 
-    driver.get("https://example.com")
+    driver.get("https://wtrl.racing")
 
     screenshot_bytes = driver.get_screenshot_as_png()
 
