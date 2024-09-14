@@ -3,7 +3,7 @@ from selenium import webdriver
 import os
 
 app = FastAPI()
-
+print('hello')
 chrome_options = webdriver.ChromeOptions()
 chrome_options.set_capability('browserless:token', os.environ['BROWSER_TOKEN'])
 # Set args similar to puppeteer's for best performance
